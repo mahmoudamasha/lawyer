@@ -1,0 +1,44 @@
+body{
+  font-family: 'Roboto' ,sans-serif;
+}
+
+header{
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) ,url(../images/header.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.nav-item{
+  margin: 0 15px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+.aaa{
+  height: 495px;
+  margin-bottom: -80px;
+  box-shadow: 0 1px 10px;
+
+}
+
+.main-nav , .footer-nav , .social-nav{
+  list-style: none;
+  display: flex;
+}
+
+.main-nav li , .footer-nav li , .social-nav li{
+  padding: 0 15px;
+}
+
+.main-nav li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.main-nav li a:hover{
+  text-decoration: underline;
+}
